@@ -54,6 +54,7 @@ class Categories
         return $this;
     }
 
+
     public function getParent(): ?self
     {
         return $this->parent;
